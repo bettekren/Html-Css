@@ -1,0 +1,140 @@
+body{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: sans-serif ;
+    
+    
+}
+body{
+    background-image: url('https://media.istockphoto.com/id/963477640/vector/abstract-blurry-pastel-colored-background.jpg?s=612x612&w=0&k=20&c=naEpNUNwJkEKk7isulD3JtVrONYylH4SQBEJ_QhkYAQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+section{
+    background-color: white;
+    width: 20em;
+    height: 34em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+    background-attachment: fixed;
+    border-radius: 7px;
+    box-shadow: 1px 10px 7px #484870;
+    
+}
+ section .header-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+section .header-logo h1{
+   position: relative;
+}
+
+section .header-logo h1::before{
+    content:"";
+    position: absolute;
+    height: 4px;
+    width: 33px;
+    bottom: 2px;
+    background-color: #c657bf;
+    border-radius: 5px;
+   
+}
+
+section .main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+input, a, button{
+    margin: 12px;
+}
+
+.text{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+  
+    
+
+}
+.facebook{
+    background-color: #0b6fbb;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.twitter{
+    background-color: rgb(12, 244, 244);   
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+.common{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 4px;
+    
+  
+
+}
+
+.github{
+    background-color:#37465C;
+   
+}
+.github img{
+    width:30px;
+}
+a{
+    color: white;
+}
+
+.common:hover{
+    opacity: 0.6;
+}
+
+.button{
+    background-color: rgba(232, 9, 9, 0.902);
+    color: white;
+    width: 100px;
+    padding: 10px;
+    
+}
+.button:hover{
+  background-color: red;
+
+}
+section:hover{
+    box-shadow:10px 10px 50px rgb(137, 129, 129);
+
+}
+
+
+
+
+
