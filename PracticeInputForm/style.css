@@ -10,7 +10,8 @@ section{
     color: white;
     background-image: url('https://images.alphacoders.com/805/805180.jpg');
     background-position: center;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 23em;
     height: 32em;
     top: 50%;
